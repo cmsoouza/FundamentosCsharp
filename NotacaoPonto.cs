@@ -12,8 +12,8 @@ namespace Fundamentos {
 
             Console.WriteLine("Teste".Length);
 
-            string valorImportante = null;
-            Console.WriteLine(valorImportante?.Length);
+            String valorImportante = null;
+            Console.WriteLine(valorImportante);
         }
     }
 }
@@ -32,9 +32,6 @@ namespace Fundamentos {
       de caracteres atual.
     - Uma nuncia entre elementos com () em frente 
       é um `metodo`, enquanto sem () é uma propriedade.
-    - No exemplo onde declaramos o "null" somente para que o compilador
-      retorne um valor vazio. Contudo para que nao haja erro teremos que
-      inclui o operador de "?".
- 
+    - Ao atribuirmos o null a uma variavel indica a ausencia de um objeto
  
  */
