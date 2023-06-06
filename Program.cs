@@ -8,9 +8,10 @@ namespace Fundamentos {
             //Constante.Const();
             //Inferencia.Inf();
             //Interpolacao.Inter();
+            Interpolacao.Inter2();
             //Comentarios.Comments();
             //chars.Palares();
-            NotacaoPonto.NotaPonto();
+            //NotacaoPonto.NotaPonto();
         }
 
     }

@@ -24,7 +24,26 @@ namespace Fundamentos {
             /* 4° Realizando operações em interpolação */
             Console.WriteLine($"1 + 1 = {1 + 1}!");
         }
+
+        /* 5° Interpolação usando ingles substituição de valores*/
+        public static void Inter2() {
+            string firstName = "Cristian";
+            string lastName = "Souza";
+            string name = $"My full name is: {firstName} {lastName}";
+            
+            Console.WriteLine(name);
+        }
     }
 }
+
+/* 
+    Links para consultas:
+    (Interpolação)
+    https://www.w3schools.com/cs/cs_strings_interpol.php
+
+    Observações:
+    Explicações e comentarios segue as aulas udemy professor Leonardo
+
+ */
 
 
